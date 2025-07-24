@@ -8,8 +8,6 @@ import { jwt } from 'hono/jwt';
 import jwt_lib from 'jsonwebtoken';
 import { Pool } from 'pg';
 
-console.log(process.env);
-
 // Database connection
 const pool = new Pool({
   user: process.env.DB_USER || 'postgres',
