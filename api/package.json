@@ -1,5 +1,9 @@
 {
   "name": "api",
+  "author": {
+    "name": "Rishikesh Suvarna",
+    "email": "rishikeshsuvarna@gmail.com"
+  },
   "version": "1.0.0",
   "main": "server.ts",
   "license": "MIT",
